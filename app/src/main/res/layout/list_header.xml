@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mars.customview.UICheckBox
+        android:id="@+id/ui_checkbox"
+        android:textColor="#fff"
+        android:layout_marginLeft="12dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"/>
+
+    <ImageButton
+        android:id="@+id/ib_more"
+        android:padding="0dp"
+        android:src="@drawable/more"
+        android:layout_weight="10"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+
+
+
+</LinearLayout>
